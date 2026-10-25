@@ -1,0 +1,15 @@
+{
+  "name": "pingr",
+  "version": "1.0.0",
+  "description": "A tiny self-hosted uptime monitor with a public status page and Discord alerts. Zero dependencies.",
+  "main": "index.js",
+  "bin": { "pingr": "index.js" },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test/smoke.js",
+    "preview": "node scripts/preview.js"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["uptime", "monitoring", "status-page", "discord", "cli"],
+  "license": "MIT"
+}
